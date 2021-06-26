@@ -1,0 +1,22 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  width: 500px;
+  padding: 9px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    input {
+      margin-bottom: 5%;
+    }
+  }
+}
